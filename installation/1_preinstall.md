@@ -74,7 +74,7 @@ lo        Link encap:Local Loopback
 
 6 Show that forward and reverse host lookups are correctly resolved
  -----------
- `
+ ```
  [root@ip-172-31-24-105 ~]# nslookup ip-172-31-24-105
 Server:         172.31.0.2
 Address:        172.31.0.2#53
@@ -91,7 +91,7 @@ Non-authoritative answer:
 105.24.31.172.in-addr.arpa      name = ip-172-31-24-105.eu-central-1.compute.internal.
 
 Authoritative answers can be found from:
-`
+```
 
 6b Show the nscd service is running
  -----------
