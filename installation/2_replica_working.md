@@ -1,3 +1,4 @@
+```
 mysql> show slave status\G;
 *************************** 1. row ***************************
                Slave_IO_State: Waiting for master to send event
@@ -44,3 +45,4 @@ Master_SSL_Verify_Server_Cert: No
 
 ERROR:
 No query specified
+```
