@@ -13,7 +13,7 @@ vm.swappiness = 1
   2 volume mount attributes
  -----------
  
-  `
+  ```
   [root@ip-172-31-24-105 ~]# cat /etc/fstab
 
 #
@@ -28,7 +28,7 @@ tmpfs                   /dev/shm                tmpfs   defaults        0 0
 devpts                  /dev/pts                devpts  gid=5,mode=620  0 0
 sysfs                   /sys                    sysfs   defaults        0 0
 proc                    /proc                   proc    defaults        0 0
-  `
+  ```
   
    3 reserve space
  -----------
@@ -49,7 +49,7 @@ tmpfs           7.3G     0  7.3G   0% /dev/shm
 
 5 List your network interface configuration
  -----------
-  `
+  ```
   [root@ip-172-31-24-105 ~]# ifconfig
 eth0      Link encap:Ethernet  HWaddr 06:60:44:4B:30:9E
           inet addr:172.31.24.105  Bcast:172.31.31.255  Mask:255.255.240.0
@@ -70,7 +70,7 @@ lo        Link encap:Local Loopback
           collisions:0 txqueuelen:0
           RX bytes:0 (0.0 b)  TX bytes:0 (0.0 b)
 
-`
+```
 
 6 Show that forward and reverse host lookups are correctly resolved
  -----------
