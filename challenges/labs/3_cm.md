@@ -9,7 +9,7 @@ drwxr-xr-x   - jimenez jimenez          0 2017-10-13 04:12 /user/jimenez
 drwxrwxr-x   - oozie   oozie            0 2017-10-13 04:12 /user/oozie
 
 ```
-
+@mfernest: group assignments for test users are incorrect
 
 ```
 [root@ip-172-31-2-253 ~]# curl -X GET -u "admin:bitbang" -i  http://172.31.15.151:7180/api/v5/hosts
