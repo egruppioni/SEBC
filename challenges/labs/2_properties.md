@@ -2,6 +2,9 @@
 [root@ip-172-31-15-151 yum.repos.d]# /usr/share/cmf/schema/scm_prepare_database.                                                                                                                               sh mysql -h ip-172-31-4-206 -uroot -p --scm-host ip-172-31-15-151 scm scm scm  -                                                                                                                               -force
 Enter database password:
 JAVA_HOME=/usr/lib/jvm/jre-openjdk
+```
+@mfernest: Recall that OpenJDK is not supported
+```
 Verifying that we can write to /etc/cloudera-scm-server
 [                          main] DbProvisioner                  ERROR Exception                                                                                                                                when creating/dropping database with user 'root' and jdbc url 'jdbc:mysql://ip-1                                                                                                                               72-31-4-206/?useUnicode=true&characterEncoding=UTF-8'
 java.sql.SQLException: Can't create database 'scm'; database exists
